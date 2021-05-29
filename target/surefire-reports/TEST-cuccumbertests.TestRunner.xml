@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="29" failures="0" name="cuccumbertests.TestRunner" time="0.01" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\nimisha\eclipse-workspace\EcommerceclothingCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\nimisha\eclipse-workspace\EcommerceclothingCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nimisha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\nimisha\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7035413380511840843.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\IBM\WebSphere MQ\java\lib;C:\Program Files\IBM\WebSphere MQ\java\lib64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\Tools\c\Samples\Bin;C:\Program Files\IBM\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\IBM\SQLLIB\BIN;C:\Program Files\IBM\SQLLIB\FUNCTION;C:\Program Files\IBM\SQLLIB\samples\repl;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\nimisha\AppData\Local\Microsoft\WindowsApps;;C:\Users\nimisha\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nimisha"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="nimisha"/>
+    <property name="java.class.path" value="C:\Users\nimisha\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_241"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_241\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\nimisha\eclipse-workspace\EcommerceclothingCucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in home page of application" time="0.006"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User should be click on women shopping button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User should be navigate to Women subcategories page and click on Tops button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="And User should be navigate to T-shirts page and click on T-shirts page" time="0.002"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="And User should be navigate to T-shirts shopping items page and click on shopping item" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="And User enters following datails of shopping item and click on Addtocart button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="And User should be navigate to proceed to checkout page and click on Proceed to checkout button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="And User should be navigate to shopping cart summary page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User should be click on Proceedto Checkout button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then user should be navigate to authentication page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in authentication page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User enter Email address" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User click on create an account button" time="0.001"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in Create an account page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User enters all the personal information and address" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User click on Register button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in Address page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User should be click on Proceed-toCheckout button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User should be navigate to shipping page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in shipping page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User click on selected the terms of service check box" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User should be click on Proceedtocheckout button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in please choose your payment method" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User click on paybybankwire option" time="0.001"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User navigate to order summary page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Given User is in order summary page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="When User click on I confirm my order button" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Then User should be navigate to order confirmation page" time="0"/>
+  <testcase classname="Scenario: Start women shopping with valid credentials" name="Scenario: Start women shopping with valid credentials" time="0"/>
+</testsuite>
